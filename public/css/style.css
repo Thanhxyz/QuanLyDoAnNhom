@@ -1,0 +1,106 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .menu-link:hover {
+            color: #ff8000;
+            transition: color 0.3s ease;
+        }
+       
+        .baotrum {
+    width: 100%;
+    height: 100vh;
+    color: #000000;
+    background-color: #ffffff;
+}
+.data {
+            background-color: #f5f5f5;
+        }
+.tieude {
+    width:100%;
+    height: 30px;
+    color: #ffffff;
+    background-color:#2d3748;
+    margin: 0px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:10px;
+}
+
+.ten {
+    text-align: center;
+    line-height: 80px;
+}
+
+.danhmuc {
+    width: 20%;
+    height: calc(100% - 30px);
+    color: #ffffff;
+    background-color:#1a202c;
+    margin-top: 30px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.dm {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.menu-item {
+    margin-top:45px;
+    margin-bottom: 0px;
+}
+
+.menu-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.dulieu {
+    width: 80%;
+    height: calc(100vh - 80px);
+    float: right;
+    color: #000000;
+    background-color: #ffffff;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+/* Thêm các lớp mới cho các hộp màu */
+
+.box {
+    width: 20%;
+    height: 100px;
+    color: #ffffff;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+        
+}
+
+.box-blue {
+    background-color: #0000ff;
+}
+
+.box-green {
+    background-color: #00ff00;
+}
+
+.box-orange {
+    background-color: #ff8000;
+}
+
+.box-red {
+    background-color: #ff0000;
+}
