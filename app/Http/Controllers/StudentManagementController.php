@@ -11,4 +11,5 @@ class StudentManagementController extends Controller
 
         return view('student_management');
     }
+    
 }

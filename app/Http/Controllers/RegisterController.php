@@ -23,7 +23,7 @@ class RegisterController extends Controller
         $user->TaiKhoan = $request->TaiKhoan;
         $user->MatKhau = Hash::make($request->MatKhau);
         $user->save();
-
+        return redirect()->route('login');
         return back()->with('success', 'Registered successfully.');
     }
 }
