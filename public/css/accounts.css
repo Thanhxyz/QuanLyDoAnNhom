@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.main2 {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #5a6268;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+.pagination {
+    /* Đặt kích thước tổng thể của thanh phân trang */
+    font-size: 0.8em;
+}
+
+.pagination a, .pagination span {
+    /* Đặt kích thước của từng nút trong thanh phân trang */
+    padding: 5px 10px;
+}
+.logout-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #5a6268;
+}
+         .pagination {
+        font-size: 1em; /* Thay đổi kích thước phân trang ở đây */
+    }
